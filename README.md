@@ -61,6 +61,13 @@ Prerequisites
 
 Build Instruction
 -----------------
+Clone the repository and fetch the submodule `pybind11`:
+```bash
+git clone https://github.com/thomgrand/torch_kdtree
+cd torch_kdtree
+git submodule init
+git submodule update
+```
 The easiest way of installing the library is using `setuptools`:
 ```bash
 pip install .
